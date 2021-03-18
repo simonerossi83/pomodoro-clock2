@@ -1,0 +1,53 @@
+body {
+  font-size: 25px;
+  color: white;
+}
+
+/*.banner::after, .banner::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+    transform: skew(15deg)
+               translateX(-50%);
+    width: 75%;
+    height: 100%;
+    background-image: linear-gradient(120deg,#343,#212);
+    background-color: #333;
+    opacity: .5;
+}
+.banner::before {
+    transform: skew(-15deg) 
+               translateX(-50%);
+}
+.banner {
+    overflow: hidden;
+}
+
+.banner  * {
+    z-index: 100;
+}
+*/
+.banner {
+    position: relative;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1612000152328-765e8e1686c9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80');
+    background-size: cover;
+    display:grid;
+  align-items: center;
+
+}
+
+
+.inlineSpan {
+  margin: 0 20px;
+  display: inline;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+#beep {
+  display:none;
+}
